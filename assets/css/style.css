@@ -7,7 +7,7 @@ body {
 
 body {
     min-height: 100vh;
-    background: linear-gradient(to bottom left, orange, white);
+    background: linear-gradient(to bottom left, rgb(255, 0, 0), white);
 }
 
 main {
@@ -50,18 +50,18 @@ button {
 }
 
 #clear {
-    background: linear-gradient(to bottom left, orange, white);
+    background: linear-gradient(to bottom left, rgb(255, 0, 0), white);
 }
 
 #clear:hover {
-    background: linear-gradient(to bottom left, red, orange);
+    background: linear-gradient(to bottom left, red, rgb(255, 0, 0));
 }
 
 /* Scoreboard Styles */
 table, 
 th, 
 td {
-    border: 1px solid darkorange;
+    border: 1px solid rgb(255, 0, 0);
     margin: 0 auto;
 }
 
